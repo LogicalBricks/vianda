@@ -6,6 +6,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "watch": "ionic build -- --watch --deploy-url=\"/assets/app/\"",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
