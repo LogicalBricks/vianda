@@ -2,9 +2,12 @@
 <html>
   <head>
     <title>Web</title>
+    <base href="/" />
     <%= favicon %>
   </head>
   <body>
     <%= yield %>
+
+    <%= javascript 'app/runtime', 'app/polyfills', 'app/styles', 'app/vendor', 'app/main' %>
   </body>
 </html>
